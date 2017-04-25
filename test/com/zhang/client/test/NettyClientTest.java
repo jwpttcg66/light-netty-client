@@ -15,19 +15,17 @@
  */
 package com.zhang.client.test;
 
-import io.netty.buffer.ByteBuf;
-import io.netty.handler.codec.http.HttpHeaders;
-import io.netty.util.CharsetUtil;
-
-import java.util.HashMap;
-import java.util.Map;
-
-import org.junit.Test;
-
 import com.zhang.client.NettyHttpClient;
 import com.zhang.client.NettyHttpRequest;
 import com.zhang.client.NettyHttpResponse;
 import com.zhang.client.NettyHttpResponseFuture;
+import io.netty.buffer.ByteBuf;
+import io.netty.handler.codec.http.HttpHeaders;
+import io.netty.util.CharsetUtil;
+import org.junit.Test;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author xianwu.zhang
